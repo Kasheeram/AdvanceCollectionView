@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710EAB0E241F58C5007A0EE6 /* TabHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAB0C241F58C5007A0EE6 /* TabHeaderView.swift */; };
+		710EAB0F241F58C5007A0EE6 /* TabHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710EAB0D241F58C5007A0EE6 /* TabHeaderView.xib */; };
+		710EAB12241F59F8007A0EE6 /* ButtonBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710EAB10241F59F8007A0EE6 /* ButtonBarCell.swift */; };
+		710EAB13241F59F8007A0EE6 /* ButtonBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710EAB11241F59F8007A0EE6 /* ButtonBarCell.xib */; };
+		71292EF0241F987000A0AA0D /* ButtonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71292EEE241F987000A0AA0D /* ButtonsCell.swift */; };
+		71292EF1241F987000A0AA0D /* ButtonsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71292EEF241F987000A0AA0D /* ButtonsCell.xib */; };
 		7155FE3F241F4A1000C15659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155FE3E241F4A1000C15659 /* AppDelegate.swift */; };
 		7155FE41241F4A1000C15659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155FE40241F4A1000C15659 /* SceneDelegate.swift */; };
 		7155FE43241F4A1000C15659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155FE42241F4A1000C15659 /* ViewController.swift */; };
@@ -15,6 +21,9 @@
 		7155FE4B241F4A1200C15659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7155FE49241F4A1200C15659 /* LaunchScreen.storyboard */; };
 		7155FE56241F4A1200C15659 /* AdvanceCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155FE55241F4A1200C15659 /* AdvanceCollectionViewTests.swift */; };
 		7155FE61241F4A1200C15659 /* AdvanceCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155FE60241F4A1200C15659 /* AdvanceCollectionViewUITests.swift */; };
+		7155FE72241F4B0F00C15659 /* LEVSyndicateDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7155FE70241F4B0F00C15659 /* LEVSyndicateDetailCell.swift */; };
+		7155FE73241F4B0F00C15659 /* LEVSyndicateDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7155FE71241F4B0F00C15659 /* LEVSyndicateDetailCell.xib */; };
+		B0301B45241A91DD8B149A05 /* Pods_AdvanceCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0D98C61A13AC1F617BB9A4 /* Pods_AdvanceCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0182EC5B21F4B60675BA79C6 /* Pods-AdvanceCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCollectionView.release.xcconfig"; path = "Target Support Files/Pods-AdvanceCollectionView/Pods-AdvanceCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		3B0D98C61A13AC1F617BB9A4 /* Pods_AdvanceCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E9F82C632420BADA6AC8AB /* Pods-AdvanceCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCollectionView.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceCollectionView/Pods-AdvanceCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		710EAB0C241F58C5007A0EE6 /* TabHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHeaderView.swift; sourceTree = "<group>"; };
+		710EAB0D241F58C5007A0EE6 /* TabHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabHeaderView.xib; sourceTree = "<group>"; };
+		710EAB10241F59F8007A0EE6 /* ButtonBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBarCell.swift; sourceTree = "<group>"; };
+		710EAB11241F59F8007A0EE6 /* ButtonBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonBarCell.xib; sourceTree = "<group>"; };
+		71292EEE241F987000A0AA0D /* ButtonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsCell.swift; sourceTree = "<group>"; };
+		71292EEF241F987000A0AA0D /* ButtonsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonsCell.xib; sourceTree = "<group>"; };
 		7155FE3B241F4A1000C15659 /* AdvanceCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7155FE3E241F4A1000C15659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7155FE40241F4A1000C15659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,8 @@
 		7155FE5C241F4A1200C15659 /* AdvanceCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7155FE60241F4A1200C15659 /* AdvanceCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCollectionViewUITests.swift; sourceTree = "<group>"; };
 		7155FE62241F4A1200C15659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7155FE70241F4B0F00C15659 /* LEVSyndicateDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEVSyndicateDetailCell.swift; sourceTree = "<group>"; };
+		7155FE71241F4B0F00C15659 /* LEVSyndicateDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LEVSyndicateDetailCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0301B45241A91DD8B149A05 /* Pods_AdvanceCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				7155FE54241F4A1200C15659 /* AdvanceCollectionViewTests */,
 				7155FE5F241F4A1200C15659 /* AdvanceCollectionViewUITests */,
 				7155FE3C241F4A1000C15659 /* Products */,
+				B656987D04DCD3FFB046827A /* Pods */,
+				DF704556C5F6FD41847BC5DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +122,10 @@
 		7155FE3D241F4A1000C15659 /* AdvanceCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7155FE6F241F4A9F00C15659 /* Controller */,
+				7155FE6E241F4A9100C15659 /* View */,
 				7155FE3E241F4A1000C15659 /* AppDelegate.swift */,
 				7155FE40241F4A1000C15659 /* SceneDelegate.swift */,
-				7155FE42241F4A1000C15659 /* ViewController.swift */,
 				7155FE44241F4A1000C15659 /* Main.storyboard */,
 				7155FE47241F4A1200C15659 /* Assets.xcassets */,
 				7155FE49241F4A1200C15659 /* LaunchScreen.storyboard */,
@@ -128,6 +152,46 @@
 			path = AdvanceCollectionViewUITests;
 			sourceTree = "<group>";
 		};
+		7155FE6E241F4A9100C15659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7155FE70241F4B0F00C15659 /* LEVSyndicateDetailCell.swift */,
+				7155FE71241F4B0F00C15659 /* LEVSyndicateDetailCell.xib */,
+				710EAB0C241F58C5007A0EE6 /* TabHeaderView.swift */,
+				710EAB0D241F58C5007A0EE6 /* TabHeaderView.xib */,
+				710EAB10241F59F8007A0EE6 /* ButtonBarCell.swift */,
+				710EAB11241F59F8007A0EE6 /* ButtonBarCell.xib */,
+				71292EEE241F987000A0AA0D /* ButtonsCell.swift */,
+				71292EEF241F987000A0AA0D /* ButtonsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7155FE6F241F4A9F00C15659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7155FE42241F4A1000C15659 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B656987D04DCD3FFB046827A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E9F82C632420BADA6AC8AB /* Pods-AdvanceCollectionView.debug.xcconfig */,
+				0182EC5B21F4B60675BA79C6 /* Pods-AdvanceCollectionView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF704556C5F6FD41847BC5DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D98C61A13AC1F617BB9A4 /* Pods_AdvanceCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7155FE65241F4A1200C15659 /* Build configuration list for PBXNativeTarget "AdvanceCollectionView" */;
 			buildPhases = (
+				704CF81C304529DA069F8595 /* [CP] Check Pods Manifest.lock */,
 				7155FE37241F4A1000C15659 /* Sources */,
 				7155FE38241F4A1000C15659 /* Frameworks */,
 				7155FE39241F4A1000C15659 /* Resources */,
@@ -233,6 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7155FE4B241F4A1200C15659 /* LaunchScreen.storyboard in Resources */,
+				710EAB13241F59F8007A0EE6 /* ButtonBarCell.xib in Resources */,
+				710EAB0F241F58C5007A0EE6 /* TabHeaderView.xib in Resources */,
+				7155FE73241F4B0F00C15659 /* LEVSyndicateDetailCell.xib in Resources */,
+				71292EF1241F987000A0AA0D /* ButtonsCell.xib in Resources */,
 				7155FE48241F4A1200C15659 /* Assets.xcassets in Resources */,
 				7155FE46241F4A1000C15659 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +323,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		704CF81C304529DA069F8595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7155FE37241F4A1000C15659 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7155FE43241F4A1000C15659 /* ViewController.swift in Sources */,
+				710EAB12241F59F8007A0EE6 /* ButtonBarCell.swift in Sources */,
+				7155FE72241F4B0F00C15659 /* LEVSyndicateDetailCell.swift in Sources */,
 				7155FE3F241F4A1000C15659 /* AppDelegate.swift in Sources */,
 				7155FE41241F4A1000C15659 /* SceneDelegate.swift in Sources */,
+				71292EF0241F987000A0AA0D /* ButtonsCell.swift in Sources */,
+				710EAB0E241F58C5007A0EE6 /* TabHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +530,13 @@
 		};
 		7155FE66241F4A1200C15659 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E9F82C632420BADA6AC8AB /* Pods-AdvanceCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3WLKJYHA2;
 				INFOPLIST_FILE = AdvanceCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +550,13 @@
 		};
 		7155FE67241F4A1200C15659 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0182EC5B21F4B60675BA79C6 /* Pods-AdvanceCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3WLKJYHA2;
 				INFOPLIST_FILE = AdvanceCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

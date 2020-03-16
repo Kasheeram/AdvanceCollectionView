@@ -1,0 +1,6 @@
+framework module Pods_AdvanceCollectionView {
+  umbrella header "Pods-AdvanceCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
